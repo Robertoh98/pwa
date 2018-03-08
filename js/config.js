@@ -3,7 +3,7 @@ function setConfig(){
 		"title":"Class of JS"
 	}
 	document.title = texts.title;
-	document.getElementById("IdNavTitle").innerHTML = texts.title;
+	document.getElementById("navTitle").innerHTML = texts.title;
 }
 
 
