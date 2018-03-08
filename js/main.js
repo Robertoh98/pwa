@@ -159,5 +159,16 @@ function initListStorage(){
     setList(list);
 }
 
+if('serviceWorker' in navigator){
+    navigator.serviceWorker
+        .register('../service-worker.js')
+        .then(function(reg){
+            console.log('Service Worker Registred')
+        })
+        .catch(function(err){
+            console.log('erro',err)
+    });
+}
+
 
 initListStorage();
