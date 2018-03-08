@@ -1,4 +1,4 @@
-let cacheName = 'data-v.1.0.0';
+let cacheName = 'data-v.1.1.0';
 
 self.addEventListener('install',function (e) {
     console.log('Installing service worker');
